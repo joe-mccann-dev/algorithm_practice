@@ -76,7 +76,7 @@ s(n) = 3 words
 A [8, 3, 9, 7 2]
 i {0, 1, 2, 3, 4}
 n = 5
-
+```
 Algorithm sum(A, n) {
   s = 0;
   for (i = 0; i < n;  i++) {
@@ -84,6 +84,7 @@ Algorithm sum(A, n) {
   }
   return s;
 }
+```
 
 s = 0 => 1 unit time
 i = 0 => 1 unit time
