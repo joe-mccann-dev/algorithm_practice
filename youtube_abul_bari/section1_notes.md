@@ -140,3 +140,26 @@ k => 1
 s(n) = 3n^2 + 4 ==> overall O(n^2) space complexity
 
 
+## Time Complexity 1
+
+```
+for (i =0; i < n; i++) {
+  stmt; => n
+} => O(n)
+
+
+two loops => O(n^2)
+
+different nested loop (still O(n^2))
+
+for (i = 0; i < n; i++) {
+  for (j = 0; j < i; j++) {
+    stmt;
+  }
+}
+
+
+```
+
+
+
